@@ -5,7 +5,7 @@
 To install use:
 
 ```
-npm install -g github:dukartbr/terminalTabs
+npm i terminalguitartabs
 ```
 
 To use in CLI:
