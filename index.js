@@ -4,7 +4,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const path = require("path");
 
-const tabDir = path.join(process.cwd(), "tabs");
+const tabDir = path.join(__dirname, "tabs");
 const files = fs.readdirSync(tabDir);
 
 // Fetch the local files
