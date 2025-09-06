@@ -12,11 +12,6 @@
       "fret": 2
     },
     {
-      "beat": 0,
-      "string": 5,
-      "fret": 0
-    },
-    {
       "beat": 1,
       "string": 4,
       "fret": 5
@@ -47,11 +42,6 @@
       "fret": 2
     },
     {
-      "beat": 3,
-      "string": 5,
-      "fret": 0
-    },
-    {
       "beat": 4,
       "string": 4,
       "fret": 5
@@ -64,22 +54,72 @@
     {
       "beat": 5,
       "string": 4,
-      "fret": 7
+      "fret": 8
     },
     {
       "beat": 5,
       "string": 3,
-      "fret": 7
+      "fret": 8
     },
     {
       "beat": 6,
       "string": 4,
-      "fret": 5
+      "fret": 7
     },
     {
       "beat": 6,
       "string": 3,
+      "fret": 7
+    },
+    {
+      "beat": 7,
+      "string": 4,
+      "fret": 2
+    },
+    {
+      "beat": 7,
+      "string": 3,
+      "fret": 2
+    },
+    {
+      "beat": 8,
+      "string": 4,
       "fret": 5
+    },
+    {
+      "beat": 8,
+      "string": 3,
+      "fret": 5
+    },
+    {
+      "beat": 9,
+      "string": 4,
+      "fret": 7
+    },
+    {
+      "beat": 9,
+      "string": 3,
+      "fret": 7
+    },
+    {
+      "beat": 10,
+      "string": 4,
+      "fret": 5
+    },
+    {
+      "beat": 10,
+      "string": 3,
+      "fret": 5
+    },
+    {
+      "beat": 11,
+      "string": 4,
+      "fret": 2
+    },
+    {
+      "beat": 11,
+      "string": 3,
+      "fret": 2
     }
   ]
 }
