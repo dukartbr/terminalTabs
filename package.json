@@ -1,0 +1,22 @@
+{
+  "name": "terminaltabs",
+  "version": "1.0.0",
+  "description": "Guitar tabs for your terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dukartbr/terminalTabs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dukartbr/terminalTabs/issues"
+  },
+  "homepage": "https://github.com/dukartbr/terminalTabs#readme",
+  "dependencies": {
+    "inquirer": "^12.9.4"
+  }
+}
