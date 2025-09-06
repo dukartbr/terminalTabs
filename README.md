@@ -1,6 +1,6 @@
-## #Termina lTabs
+## Terminal Tabs
 
-## ##Riff While you code
+### Riff While you code
 
 Using the following schema, terminalTabs will place your guitar tab in the terminal
 
