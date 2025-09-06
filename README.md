@@ -1,6 +1,6 @@
 ## Terminal Tabs
 
-### Riff While you code
+### Riff while you code
 
 To install use:
 
