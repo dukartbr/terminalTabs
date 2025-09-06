@@ -19,7 +19,7 @@ Using the following schema, terminalTabs will place your guitar tab in the termi
 ```
 {
 	"name": "Song Title",
-	notes: [
+	"notes": [
 		{
 			"beat": 0,
 			"string": 3,
