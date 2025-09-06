@@ -2,6 +2,18 @@
 
 ### Riff While you code
 
+To install use:
+
+```
+npm install -g github:dukartbr/terminalTabs
+```
+
+To use in CLI:
+
+```
+terminalTabs
+```
+
 Using the following schema, terminalTabs will place your guitar tab in the terminal
 
 ```
