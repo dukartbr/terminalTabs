@@ -1,7 +1,7 @@
 const crazyTrain = require("./riffs/crazyTrain.json");
 
 // 6 strings with a large number of dashes representing beats
-const guitar = Array.from(Array(6), () => new Array(150).join("-"));
+const guitar = Array.from(Array(6), () => Array(150).join("-"));
 
 const riff = guitar.map((str, index) => {
   // map over strings and get notes that match the string number
