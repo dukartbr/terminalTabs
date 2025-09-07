@@ -13,7 +13,9 @@ var parsedTabs = files
   .map((f) => JSON.parse(fs.readFileSync(path.join(tabDir, f), "utf-8")));
 
 // 6 strings with a large number of dashes representing beats
-const guitar = Array.from(Array(6), () => Array(150).join("-"));
+const guitar = Array.from(Array(6), () =>
+  Array(Math.floor(process.stdout.columns * 0.85)).join("-")
+);
 
 function generateTab(tab) {
   const riff = guitar.map((str, index) => {
