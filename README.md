@@ -8,6 +8,8 @@ To install use:
 npm i terminalguitartabs
 ```
 
+Place your tabs in the `tabs` folder
+
 To use in CLI:
 
 ```
@@ -28,3 +30,9 @@ Using the following schema, terminalTabs will place your guitar tab in the termi
 	]
 }
 ```
+
+## TODO:
+
+- Add Measure markers
+- Add measure value to note object
+- Format with note duration considered
