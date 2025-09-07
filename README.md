@@ -8,13 +8,13 @@ To install use:
 npm i terminalguitartabs
 ```
 
-Place your tabs in the `tabs` folder
-
 To use in CLI:
 
 ```
 terminalTabs
 ```
+
+Place your tab JSON objects in the `tabs` folder
 
 Using the following schema, terminalTabs will place your guitar tab in the terminal
 
@@ -27,7 +27,7 @@ Using the following schema, terminalTabs will place your guitar tab in the termi
 			"string": 3,
 			"fret": 5
 		}
-	]
+	]****
 }
 ```
 
