@@ -27,7 +27,7 @@ Using the following schema, terminalTabs will place your guitar tab in the termi
 			"string": 3,
 			"fret": 5
 		}
-	]****
+	]
 }
 ```
 
