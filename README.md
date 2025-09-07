@@ -31,7 +31,7 @@ Using the following schema, terminalTabs will place your guitar tab in the termi
 }
 ```
 
-## TODO:
+### TODO:
 
 - Add Measure markers
 - Add measure value to note object
