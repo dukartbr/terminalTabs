@@ -59,10 +59,30 @@ function generateTab(tab, tuning) {
         });
       });
 
-    return getStringName(index, tuning) + ":--" + chars.join("");
+    return getStringName(index, tuning) + ":>-" + chars.join("");
   });
   // Rock n roll baby
-  console.log(riff);
+  return riff;
+}
+
+function playTab(tab) {
+  console.log("tab", tab);
+  var generatedTab = generateTab(tab);
+  var counter = 0;
+  var interval = setInterval(() => {
+    console.clear();
+    if (counter == rowLength) {
+      clearInterval(interval);
+    }
+
+    console.log("playing", tab);
+    var tabToPlay = generatedTab.map((x) => {
+      return x.substring(0, 4) + x.substring(counter + 4);
+    });
+
+    console.log(tabToPlay);
+    counter++;
+  }, 700);
 }
 
 function mount() {
@@ -71,7 +91,20 @@ function mount() {
     message: "What song would you like to play?",
     type: "list",
     choices: parsedTabs.map((x) => x.name),
-  }).then((ans) => generateTab(ans[""]));
+  }).then((ans) => {
+    var tab = ans[""];
+    prompt({
+      message: "Auto play?",
+      type: "list",
+      choices: ["yes", "no"],
+    }).then((ans) => {
+      if (ans[""] == "yes") {
+        playTab(tab);
+      } else {
+        console.log(generateTab(tab));
+      }
+    });
+  });
 }
 
 mount();
