@@ -1,0 +1,74 @@
+[
+  {
+    "name": "E Standard",
+    "key": 0,
+    "strings": [
+      {
+        "guitarString": 0,
+        "name": "E",
+        "standardRelation": 0
+      },
+      {
+        "guitarString": 1,
+        "name": "B",
+        "standardRelation": 0
+      },
+      {
+        "guitarString": 2,
+        "name": "G",
+        "standardRelation": 0
+      },
+      {
+        "guitarString": 3,
+        "name": "D",
+        "standardRelation": 0
+      },
+      {
+        "guitarString": 4,
+        "name": "A",
+        "standardRelation": 0
+      },
+      {
+        "guitarString": 5,
+        "name": "E",
+        "standardRelation": 0
+      }
+    ]
+  },
+  {
+    "name": "Drop D",
+    "key": 1,
+    "strings": [
+      {
+        "guitarString": 0,
+        "name": "E",
+        "standardRelation": 0
+      },
+      {
+        "guitarString": 1,
+        "name": "B",
+        "standardRelation": 0
+      },
+      {
+        "guitarString": 2,
+        "name": "G",
+        "standardRelation": 0
+      },
+      {
+        "guitarString": 3,
+        "name": "D",
+        "standardRelation": 0
+      },
+      {
+        "guitarString": 4,
+        "name": "A",
+        "standardRelation": 0
+      },
+      {
+        "guitarString": 5,
+        "name": "D",
+        "standardRelation": -2
+      }
+    ]
+  }
+]
