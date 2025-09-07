@@ -1,6 +1,6 @@
 {
   "name": "terminalguitartabs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Guitar tabs for your terminal",
   "main": "index.js",
   "scripts": {
